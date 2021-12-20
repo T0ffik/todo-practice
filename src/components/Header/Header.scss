@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.header{
+    background-color: $header-bg;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    &--title{
+        padding-left: 0.5em;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
