@@ -1,0 +1,10 @@
+.addTaskForm{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    &__inputCon{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

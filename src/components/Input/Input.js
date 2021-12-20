@@ -10,4 +10,6 @@ Input.propTypes = {
   placeholder: propTypes.string.isRequired,
   type: propTypes.oneOf(["text", "email"]),
   disabled: propTypes.bool,
+  value: propTypes.string,
+  onChange: propTypes.func,
 };
