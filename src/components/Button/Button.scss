@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.btn{
+    border: none;
+    border: 0.1em solid $btn-border;
+    padding: 0 0.6em;
+    height: 2.4em;
+    background-color: $btn-bg;
+    font-weight: 600;
+}
