@@ -1,0 +1,9 @@
+@import "../../styles/variables.scss";
+
+.input{
+    border: none;
+    outline: none;
+    border: $border-common;
+    font-size: 1em;
+    padding: .2em;
+}

@@ -2,7 +2,7 @@
 
 .btn{
     border: none;
-    border: 0.1em solid $btn-border;
+    border: $border-common;
     padding: 0 0.6em;
     height: 2.4em;
     background-color: $btn-bg;
